@@ -14,8 +14,8 @@ drat::insertPackage(paste0(compile_loc, "/", pkg, ".tar.gz"), "docs")
 # Cleanup
 drat::archivePackages("docs")
 
-setupr::add_tran
+# Test
+getOption("repos")
+options(repos = c(TECHNOMICS = "https://technomics.github.io/repo/"))
 
-options(repos = c("https://technomics.github.io/repo/", getOption("repos")))
-
-install.packages("readflexfile")
+install.packages("costmisc", repo = "https://technomics.github.io/repo/")
