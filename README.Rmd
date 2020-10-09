@@ -22,7 +22,7 @@ This project serves as an R package repository host. Packages in the *costverse*
 For example, use the following to install [costmisc](https://github.com/Technomics/costmisc/).
 
 ```{r example, eval=FALSE, include=TRUE}
-install.packages("costmisc", repo = "https://technomics.github.io/repo/")
+install.packages("costmisc", repos = "https://technomics.github.io/repo/")
 ```
 
 ## Welcome to the costverse!

@@ -13,9 +13,3 @@ drat::insertPackage(paste0(compile_loc, "/", pkg, ".tar.gz"), "docs")
 
 # Cleanup
 drat::archivePackages("docs")
-
-# Test
-getOption("repos")
-options(repos = c(TECHNOMICS = "https://technomics.github.io/repo/"))
-
-install.packages("costmisc", repo = "https://technomics.github.io/repo/")

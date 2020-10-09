@@ -17,7 +17,7 @@ For example, use the following to install
 [costmisc](https://github.com/Technomics/costmisc/).
 
 ``` r
-install.packages("costmisc", repo = "https://technomics.github.io/repo/")
+install.packages("costmisc", repos = "https://technomics.github.io/repo/")
 ```
 
 ## Welcome to the costverse\!
