@@ -1,6 +1,6 @@
 
 # Enter the name of the package you want to add to the repository
-pkg <-"readflexfile_0.2.0"
+pkg <-"costmisc_0.6.0"
 
 # Location of the compiled file
 compile_loc <- file.path(setupr::get_dirs()$git_local, "costverse")
@@ -13,3 +13,9 @@ drat::insertPackage(paste0(compile_loc, "/", pkg, ".tar.gz"), "docs")
 
 # Cleanup
 drat::archivePackages("docs")
+
+setupr::add_tran
+
+options(repos = c("https://technomics.github.io/repo/", getOption("repos")))
+
+install.packages("readflexfile")
