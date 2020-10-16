@@ -1,0 +1,4 @@
+Package: flexample
+Version: 1.0.0
+Imports: lifecycle
+License: GPL-3
