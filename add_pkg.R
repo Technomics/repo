@@ -1,16 +1,16 @@
 
 # Enter the name of the package you want to add to the repository
-pkg <-"costmisc_0.6.0"
+pkg <-"readflexfile_0.2.0"
 
-# Location of the compiled file
+# Find the package files
 compile_loc <- file.path(setupr::get_dirs()$git_local, "costverse", "_builds")
+pkg_files <- list.files(compile_loc, recursive = TRUE, full.names = TRUE, pattern = pkg)
 
-# Insert the binary
-drat::insertPackage(paste0(compile_loc, "/bin", "3.6", pkg, ".zip"), "docs")
-drat::insertPackage(paste0(compile_loc, "/bin", "4.0", pkg, ".zip"), "docs")
-
-# Insert the source
-drat::insertPackage(paste0(compile_loc, "/src", pkg, ".tar.gz"), "docs")
+# Insert all the versions
+drat_loc <- file.path(setupr::get_dirs()$git_local, "costverse", "repo")
+invisible(lapply(pkg_files, drat::insertPackage, repodir = file.path(drat_loc, "docs")))
 
 # Cleanup
 drat::archivePackages("docs")
+
+git2r::pull(repo = drat_loc)
