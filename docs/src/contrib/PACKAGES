@@ -5,7 +5,7 @@ Imports: stringr (>= 1.4.0), lifecycle, cli (>= 2.0.0), stringi (>= 1.4.0), rlan
                 janitor (>= 2.0.0)
 Suggests: testthat, openxlsx (>= 4.1.4)
 License: GPL-3
-MD5sum: 360c5801ff4f167bb81012c49725ad37
+MD5sum: 541d69b6d8263fcd7085dce7d56d02c6
 NeedsCompilation: no
 
 Package: flexample
