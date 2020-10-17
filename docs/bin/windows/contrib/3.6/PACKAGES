@@ -1,15 +1,21 @@
 Package: costmisc
 Version: 0.6.0
 Depends: R (>= 2.10)
-Imports: stringr (>= 1.4.0), lifecycle, cli (>= 2.0.0), stringi (>= 1.4.0), rlang (>= 0.4.6), dplyr (>= 0.8.5), tibble (>= 3.0.0), purrr (>= 0.3.3),
-                janitor (>= 2.0.0)
+Imports: stringr (>= 1.4.0), lifecycle, cli (>= 2.0.0), stringi (>= 1.4.0), rlang (>= 0.4.6), dplyr (>= 0.8.5), tibble (>= 3.0.0), purrr
+               (>= 0.3.3), janitor (>= 2.0.0)
 Suggests: testthat, openxlsx (>= 4.1.4)
+License: GPL-3
+
+Package: flexample
+Version: 1.0.0
+Imports: lifecycle
 License: GPL-3
 
 Package: readflexfile
 Version: 0.2.0
 Depends: R (>= 2.10)
-Imports: lifecycle, magrittr, dplyr (>= 0.8.3), rio, jsonlite, tidyr (>= 1.0.0), tibble (>= 2.0.0), purrr (>= 0.3.3), rlang (>= 0.4.2), costmisc (>=
-                0.5.1), stringr (>= 1.4.0), lubridate, glue (>= 1.4.1), cli (>= 2.0.2), janitor, readr, stats, tidyselect (>= 1.1.0)
+Imports: lifecycle, magrittr, dplyr (>= 0.8.3), rio, jsonlite, tidyr (>= 1.0.0), tibble (>= 2.0.0), purrr (>= 0.3.3), rlang (>= 0.4.2),
+               costmisc (>= 0.5.1), stringr (>= 1.4.0), lubridate, glue (>= 1.4.1), cli (>= 2.0.2), janitor, readr, stats, tidyselect (>=
+               1.1.0)
 Suggests: testthat, knitr, rmarkdown, kableExtra (>= 1.1.0), scales (>= 1.1.0), flexample (>= 1.0.0)
 License: GPL-3
