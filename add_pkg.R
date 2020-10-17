@@ -17,4 +17,4 @@ git2r::pull(drat_loc)
 git2r::commit(drat_loc, message = paste("Added", pkg, "to drat"))
 git2r::push(drat_loc)
 
-chng <- git2r::status(drat_loc)
+chng2 <- git2r::status(drat_loc)
