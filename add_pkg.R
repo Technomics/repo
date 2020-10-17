@@ -13,4 +13,8 @@ invisible(lapply(pkg_files, drat::insertPackage, repodir = file.path(drat_loc, "
 # Cleanup
 drat::archivePackages("docs")
 
-git2r::pull(repo = drat_loc)
+git2r::pull(drat_loc)
+git2r::commit(drat_loc, message = paste("Added", pkg, "to drat"))
+git2r::push(drat_loc)
+
+chng <- git2r::status(drat_loc)
