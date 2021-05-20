@@ -1,5 +1,5 @@
 Package: costmisc
-Version: 0.6.1
+Version: 0.6.2
 Depends: R (>= 2.10)
 Imports: stringr (>= 1.4.0), lifecycle, cli (>= 2.0.0), stringi (>= 1.4.0), rlang (>= 0.4.6), dplyr (>= 0.8.5), tibble
              (>= 3.0.0), purrr (>= 0.3.3), janitor (>= 2.0.0), fs (>= 1.4.1), jsonlite (>= 1.6.1), zip (>= 2.1.1)
