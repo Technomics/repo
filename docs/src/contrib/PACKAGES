@@ -12,7 +12,7 @@ Package: flexample
 Version: 1.1.1
 Imports: lifecycle
 License: GPL-3
-MD5sum: 9c41c7277f6f3a4041997f5fc0337711
+MD5sum: dbc871bbf65ba1191fe45e44bbb2bf76
 NeedsCompilation: no
 
 Package: readflexfile
