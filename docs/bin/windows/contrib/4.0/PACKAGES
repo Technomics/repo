@@ -7,7 +7,7 @@ Suggests: testthat, openxlsx (>= 4.1.4)
 License: GPL-3
 
 Package: flexample
-Version: 1.1.1
+Version: 1.1.2
 Imports: lifecycle
 License: GPL-3
 
