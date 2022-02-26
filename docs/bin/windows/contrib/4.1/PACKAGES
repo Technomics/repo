@@ -1,0 +1,8 @@
+Package: readflexfile
+Version: 0.4.0
+Depends: R (>= 2.10)
+Imports: lifecycle (>= 1.0.0), magrittr, dplyr (>= 0.8.3), tidyr (>= 1.0.0), tibble (>= 2.0.0), purrr (>= 0.3.3), rlang (>= 0.4.2),
+              costmisc (>= 0.6.4), stringr (>= 1.4.0), lubridate, glue (>= 1.4.1), cli (>= 2.0.2), janitor (>= 2.1.0), readr, stats,
+              tidyselect (>= 1.1.0), zip (>= 2.1.1), jsonlite (>= 1.7.2)
+Suggests: testthat, knitr, rmarkdown, kableExtra (>= 1.1.0), scales (>= 1.1.0), flexample (>= 1.1.1), markdown (>= 1.1)
+License: GPL-3
