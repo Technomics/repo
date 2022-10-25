@@ -25,5 +25,5 @@ Imports: lifecycle (>= 1.0.0), magrittr, dplyr (>= 0.8.3), tidyr (>= 1.0.0), tib
 Suggests: testthat, knitr, rmarkdown, kableExtra (>= 1.1.0), scales (>= 1.1.0), flexample (>= 1.1.1), markdown (>= 1.1),
              readxl (>= 1.4.0)
 License: GPL-3
-MD5sum: cc7dc27859561e8c343e07cd7f0b6dbb
+MD5sum: 2dd25c27ba934c1c78b76c59f3e2b71d
 NeedsCompilation: no
