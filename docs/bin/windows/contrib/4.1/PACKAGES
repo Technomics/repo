@@ -1,9 +1,9 @@
 Package: costmisc
-Version: 0.7.0
+Version: 0.7.1
 Depends: R (>= 2.10)
-Imports: stringr (>= 1.4.0), lifecycle, cli (>= 2.0.0), stringi (>= 1.4.0), rlang (>= 0.4.6), dplyr (>= 0.8.5),
-            tibble (>= 3.0.0), purrr (>= 0.3.3), janitor (>= 2.0.0), fs (>= 1.4.1), jsonlite (>= 1.6.1), zip (>=
-            2.1.1), tidyselect (>= 1.1.2), magrittr, readr (>= 2.0.0), glue (>= 1.6.0)
+Imports: stringr (>= 1.4.0), lifecycle, cli (>= 2.0.0), stringi (>= 1.4.0), rlang (>= 0.4.6), dplyr (>= 0.8.5), tibble (>= 3.0.0), purrr
+               (>= 0.3.3), janitor (>= 2.0.0), fs (>= 1.4.1), jsonlite (>= 1.6.1), zip (>= 2.1.1), tidyselect (>= 1.1.2), magrittr, readr
+               (>= 2.0.0), glue (>= 1.6.0)
 Suggests: testthat, openxlsx (>= 4.1.4)
 License: GPL-3
 
@@ -15,9 +15,7 @@ License: GPL-3
 Package: readflexfile
 Version: 0.4.2
 Depends: R (>= 2.10)
-Imports: lifecycle (>= 1.0.0), magrittr, dplyr (>= 0.8.3), tidyr (>= 1.0.0), tibble (>= 2.0.0), purrr (>= 0.3.3),
-            rlang (>= 0.4.2), costmisc (>= 0.7.0), lubridate, janitor (>= 2.1.0), readr, tidyselect (>= 1.1.0),
-            zip (>= 2.1.1), jsonlite (>= 1.7.2)
-Suggests: testthat, knitr, rmarkdown, kableExtra (>= 1.1.0), scales (>= 1.1.0), flexample (>= 1.1.1), markdown
-            (>= 1.1), readxl (>= 1.4.0)
+Imports: lifecycle (>= 1.0.0), magrittr, dplyr (>= 0.8.3), tidyr (>= 1.0.0), tibble (>= 2.0.0), purrr (>= 0.3.3), rlang (>= 0.4.2),
+               costmisc (>= 0.7.0), lubridate, janitor (>= 2.1.0), readr, tidyselect (>= 1.1.0), zip (>= 2.1.1), jsonlite (>= 1.7.2)
+Suggests: testthat, knitr, rmarkdown, kableExtra (>= 1.1.0), scales (>= 1.1.0), flexample (>= 1.1.1), markdown (>= 1.1), readxl (>= 1.4.0)
 License: GPL-3
