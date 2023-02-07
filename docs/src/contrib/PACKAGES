@@ -20,9 +20,9 @@ Package: readflexfile
 Version: 0.5.1
 Depends: R (>= 2.10)
 Imports: lifecycle (>= 1.0.0), magrittr, dplyr (>= 0.8.3), tidyr (>= 1.0.0), tibble (>= 2.0.0), purrr (>= 0.3.3), rlang (>= 0.4.2), costmisc
-                (>= 0.7.1), lubridate, janitor (>= 2.1.0), readr, tidyselect (>= 1.1.0), zip (>= 2.1.1), jsonlite (>= 1.7.2), stringr (>=
+                (>= 0.7.3), lubridate, janitor (>= 2.1.0), readr, tidyselect (>= 1.1.0), zip (>= 2.1.1), jsonlite (>= 1.7.2), stringr (>=
                 1.0.0)
 Suggests: testthat, knitr, rmarkdown, kableExtra (>= 1.1.0), scales (>= 1.1.0), flexample (>= 1.1.1), markdown (>= 1.1), readxl (>= 1.4.0)
 License: GPL-3
-MD5sum: 3b3c3b2e6c718971397dd89570af0cdd
+MD5sum: e0adc7e2e83370131e62b31631f64803
 NeedsCompilation: no
