@@ -17,7 +17,7 @@ MD5sum: a1319551e26c9d9bdc55ced652f37484
 NeedsCompilation: no
 
 Package: readflexfile
-Version: 0.5.3
+Version: 0.5.4
 Depends: R (>= 3.6)
 Imports: lifecycle (>= 1.0.0), magrittr, dplyr (>= 0.8.3), tidyr (>= 1.0.0), tibble (>= 2.0.0), purrr (>= 0.3.3), rlang (>= 0.4.2),
                costmisc (>= 0.7.3), lubridate, janitor (>= 2.1.0), readr, tidyselect (>= 1.1.0), zip (>= 2.1.1), jsonlite (>= 1.7.2),
@@ -25,5 +25,5 @@ Imports: lifecycle (>= 1.0.0), magrittr, dplyr (>= 0.8.3), tidyr (>= 1.0.0), tib
 Suggests: testthat, knitr, rmarkdown, kableExtra (>= 1.1.0), scales (>= 1.1.0), flexample (>= 1.1.1), markdown (>= 1.1), readxl (>=
                1.4.0)
 License: GPL-3
-MD5sum: 1c95d3ff3dda2a5845b541978bb089ee
+MD5sum: f958fdbf9f96eebf15de14d0f7c47fbe
 NeedsCompilation: no
